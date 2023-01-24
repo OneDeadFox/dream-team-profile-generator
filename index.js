@@ -31,4 +31,3 @@ const Manager = require('./lib/Manager');
 
 
 //Functions----------------------------------------------------
-
