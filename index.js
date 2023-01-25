@@ -31,3 +31,5 @@ const Manager = require('./lib/Manager');
 
 
 //Functions----------------------------------------------------
+const testMan = new Engineer('Blockhead', 1, 1, 'test');
+console.log(testMan.getRole());
