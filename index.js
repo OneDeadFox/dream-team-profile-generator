@@ -103,7 +103,7 @@ const addMembers = async () => {
             },
         ]);
         if (member.recurrent === "I'm done") {
-            fs.writeFile('index.htlm', htmlGenerator(team), (err) => err ? console.log(err) : console.log('You successfully created your Dream-team.'));
+            fs.writeFile('index.html', htmlGenerator(team), (err) => err ? console.log(err) : console.log('You successfully created your Dream-team.'));
             return;
         } else if (member.recurrent === 'Engineer') {
             const engineer = await inquirer.prompt([
